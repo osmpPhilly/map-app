@@ -25,7 +25,7 @@ Examples of Foundation Center maps include:
  *  [Charles Stewart Mott Foundation] (http://www.mott.org1/grantsandguidelines/ExploreGrants/maps)
  * [Zellerbach Family Foundation] (http://zff.org/grantmaking/)
 
-Other examples (not using Founations Map tool): 
+Other examples (not using Foundations Map tool): 
 
  *  [FFA Environmental Grants] (http://www.communitywalk.com/map/1743255)
  *  [Mary Reynolds Babcock Foundation] (http://mrbf.org/grants)
