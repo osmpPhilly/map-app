@@ -40,7 +40,7 @@ The data set was compiled from the [Philadelphia Cultural Fund's website] (http:
 Just gettin' started.
 
 ##Aging Out of Place?
-**A visual analysis showing the impact of gentrification on Philadelphia’s elderly population.**
+**OSMP 2015 - A visual analysis showing the impact of gentrification on Philadelphia’s elderly population.**
 
 As a “city of neighborhoods”, much of Philadelphia’s culture has been established by long term residents. As the city has finally begun to see a population increase, attention has been focused on the influx of millennials and young families living in (or returning to) Philadelphia. However, less analysis has been completed to determine how these current trends have impacted (or will soon impact) the city’s elderly population. 
 
@@ -57,7 +57,7 @@ There is no agreed upon definition for gentrification. This project will utilize
 *For more information on their methodology, please refer to:*
 http://www.governing.com/gov-data/gentrification-report-methodology.html
 
-###Other Sources:
+###Data Sources:
 [Pew Research Center Survey on Aging and Longevity (2013)] (http://www.pewforum.org/datasets/survey-of-aging-and-longevity/)
 [Governing - Gentrification in America Report] (http://www.governing.com/gov-data/gentrification-in-cities-governing-report.html)
 [Governing - Philadelphia Gentrification Maps] (http://www.governing.com/gov-data/philadelphia-gentrification-maps-demographic-data.html)
