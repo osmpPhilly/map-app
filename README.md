@@ -59,11 +59,17 @@ http://www.governing.com/gov-data/gentrification-report-methodology.html
 
 ###Data Sources:
 [Pew Research Center Survey on Aging and Longevity (2013)] (http://www.pewforum.org/datasets/survey-of-aging-and-longevity/)
+
 [Governing - Gentrification in America Report] (http://www.governing.com/gov-data/gentrification-in-cities-governing-report.html)
+
 [Governing - Philadelphia Gentrification Maps] (http://www.governing.com/gov-data/philadelphia-gentrification-maps-demographic-data.html)
+
 [2000 US Census](http://www.census.gov/main/www/cen2000.html)
+
 [2009-13 American Communities Survey] (https://www.census.gov/programs-surveys/acs/data.html)
+
 [Age Demographics - Statistics for US Counties] (www.governing.com/gov-data/age-65-older-population-map-usa-counties.html)
+
 [PCAC Development without Displacement Report](http://phillyaffordablecommunities.org/wp-content/uploads/2015/03/DWD_Report.pdf)
 
 note: This exercise is not affiliated with the Governing Data Gentrification in America report
