@@ -1,0 +1,151 @@
+{ "type": "FeatureCollection",
+
+    "features": [
+      { 
+        "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.134729, 39.974192]
+          },
+          "properties": {
+            "name": "ArtWell",
+            "address": "100 W Oxford St",
+            "zip": "19122",
+            "website": "http://www.theartwell.org/",
+            "grantAmount": "50000"
+          }
+        },
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.142764, 39.953009]
+          },
+          "properties": {
+            "name": "Clay Studio",
+            "address": "139 N 2nd St",
+            "zip": "19106",
+            "website": "https://www.theclaystudio.org/",
+            "grantAmount": "50000"
+          }
+      },
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.110737, 39.980488]
+          },
+          "properties": {
+            "name": "Kulu Mele African Dance and Drum Ensemble",
+            "address": "2636 East Auburn Street",
+            "zip": "19134",
+            "website": "http://www.kulumele.org/",
+            "grantAmount": "15000"
+          }
+      },
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.183948, 39.951873]
+          },
+          "properties": {
+            "name": "LiveConnections",
+            "address": "3025 Walnut Street",
+            "zip": "19104",
+            "website": "http://www.liveconnections.org/",
+            "grantAmount": "10000"
+          }
+      },
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.165597, 39.946006]
+          },
+          "properties": {
+            "name": "Philadelphia Arts in Education Partnership",
+            "address": "320 S. Broad Street",
+            "zip": "19102",
+            "website": "http://www.paep.net/",
+            "grantAmount": "15000"
+          }
+      },
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.159016, 39.957729]
+          },
+          "properties": {
+            "name": "Philadelphia Young Playwrights",
+            "address": "1219 Vine St",
+            "zip": "19107",
+            "website": "http://www.phillyyoungplaywrights.org/",
+            "grantAmount": "50000"
+          }
+      },
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.211497, 39.956861]
+          },
+          "properties": {
+            "name": "Play on, Philly!",
+            "address": "4501 Chestnut St",
+            "zip": "19139",
+            "website": "http://www.playonphilly.org/",
+            "grantAmount": "50000"
+          }
+      },
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.166635, 39.937708]
+          },
+          "properties": {
+            "name": "Rock School for Dance Education",
+            "address": "1101 S Broad St",
+            "zip": "19147",
+            "website": "https://therockschool.org",
+            "grantAmount": "25000"
+          }
+      },
+       { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.154998, 39.939086]
+          },
+          "properties": {
+            "name": "Samuel S. Fleisher Art Memorial",
+            "address": "719 Catharine St",
+            "zip": "19147",
+            "website": "http://www.fleisher.org/",
+            "grantAmount": "50000"
+          }
+      },
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.206735, 39.956102]
+          },
+          "properties": {
+            "name": "Scribe Video Center",
+            "address": "4212 Chestnut Street, 3rd Floor",
+            "zip": "19104",
+            "website": "http://www.scribe.org/",
+            "grantAmount": "25000"
+          }
+      },
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.168222, 39.948109]
+          },
+          "properties": {
+            "name": "The Print Center",
+            "address": "1614 Latimer St",
+            "zip": "19103",
+            "website": "http://www.printcenter.org/",
+            "grantAmount": "10000"
+          }
+      }
+
+
+    ]
+}
