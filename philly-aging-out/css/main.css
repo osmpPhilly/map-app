@@ -308,6 +308,8 @@ li{
     opacity: 0.8;
 }
 
+#map { height: 600px; }
+
 footer{
     height: 20px;
     background-color: black;
