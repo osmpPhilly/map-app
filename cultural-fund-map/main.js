@@ -12,11 +12,20 @@ var dataSuccess = function( jsonData ) {
 	var layerOptions = {
 		pointToLayer: function(featureData, latlng) {
 			var markerOptions = {
-				fillColor: '#f00',
+				fillColor: '#006e85',
+				color: '#006e85',
 				radius: (function(x) {
-					return x / 1000;
-				}(featureData.properties.grantAmount))
-			};
+					if (x > 49999)
+					return 15;
+					if (x > 24999)
+					return 10;
+					if (x >14999)
+					return 7
+					else 
+					return 5;
+				}
+				(featureData.properties.grantAmount))
+			}
 			return L.circleMarker(latlng, markerOptions);
 		}
 	};
