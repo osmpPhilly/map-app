@@ -25,13 +25,13 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 }
 
 
-/* SIDEBAR */
+/* SIDEBAR LEGAND */
 
 aside {
 	float: left;
-	width: 30%;
+	width: 25%;
 	background: #d8d8d8;
-	height: 500px;
+	height: 600px;
 }
 
 aside h2 {
@@ -39,11 +39,81 @@ aside h2 {
 	text-align: center;
 }
 
+aside h3 {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 35px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin-left: 10%;
+}
+
+#org-budget-list li, #grant-amount-list li {
+	margin: 10px;
+}
+
+.org-budget, .grant-amount {
+	display: inline-block;
+}
+
+.org-budget {
+	border-radius: 50%;
+	background: #006e85;
+}
+
+#budget-tier1 {
+	height: 15px;
+	width: 15px;
+}
+
+#budget-tier2 {
+	height: 12px;
+	width: 12px;
+}
+
+#budget-tier3 {
+	height: 9px;
+	width: 9px;
+}
+
+#budget-tier4 {
+	height: 6px;
+	width: 6px;
+}
+
+#budget-tier5 {
+	height: 3px;
+	width: 3px;
+}
+
+.grant-amount {
+	height: 12px;
+	width: 12px;
+}
+
+#grant-tier1 {
+	background: #002C35;
+}
+
+#grant-tier2 {
+	background: #006e85;
+}
+
+#grant-tier3 {
+	background: #4d9aaa;
+}
+
+#grant-tier4 {
+	background: #99c5c3;
+}
 
 /* MAPS */
 
 #map { 
-	height: 500px;
-	width: 70%;
+	height: 600px;
+	width: 75%;
 	float: right;
 }

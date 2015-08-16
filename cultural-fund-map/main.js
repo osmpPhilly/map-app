@@ -42,6 +42,7 @@ var dataSuccess = function( jsonData ) {
 			return L.circleMarker(latlng, markerOptions);
 		}
 	};
+
 	var inventoryLayer = L.geoJson(jsonData, layerOptions);
 	map.addLayer(inventoryLayer);
 
