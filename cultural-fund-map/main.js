@@ -12,19 +12,32 @@ var dataSuccess = function( jsonData ) {
 	var layerOptions = {
 		pointToLayer: function(featureData, latlng) {
 			var markerOptions = {
-				fillColor: '#006e85',
-				color: '#006e85',
-				radius: (function(x) {
+				color: '#f1f2f2',
+				fillOpacity: 0.9,
+				fillColor: (function(x) {
 					if (x > 49999)
-					return 15;
+					return '#002C35';
 					if (x > 24999)
-					return 10;
-					if (x >14999)
-					return 7
-					else 
-					return 5;
+					return '#006e85';
+					if (x > 14999)
+					return '#4d9aaa'
+					else
+					return '#99c5c3';
 				}
-				(featureData.properties.grantAmount))
+				(featureData.properties.grantAmount)),
+				radius: (function(x) {
+					if (x > 1500000)
+					return 15;
+					if (x > 400000)
+					return 12;
+					if (x >150000)
+					return 9;
+					if (x > 50000)
+					return 6
+					else 
+					return 3;
+				}
+				(featureData.properties.orgBudget))
 			}
 			return L.circleMarker(latlng, markerOptions);
 		}
