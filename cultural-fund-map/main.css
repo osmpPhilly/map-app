@@ -117,3 +117,9 @@ ul {
 	width: 75%;
 	float: right;
 }
+
+
+.org-name a {
+	color: #006e85;
+	font-weight: 600;
+}

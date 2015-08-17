@@ -44,10 +44,18 @@ var dataSuccess = function(jsonData) {
 				color: '#f1f2f2',
 				fillOpacity: 0.8,
 				fillColor: getColor(featureData.properties.grantAmount),
-				radius: getRadius(featureData.properties.orgBudget)
+				radius: getRadius(featureData.properties.orgBudget),
+			}
+
+			var popupOptions = {
+				maxWidth: 220,
 			};
 
-			return L.circleMarker(latlng, markerOptions);
+			var popupContent = "<span class='org-name'><a href='" + (featureData.properties.website) + "'>" + (featureData.properties.name) + "</a></span> <br> Grant amount: $" + (featureData.properties.grantAmount) + "<br> Budget: $" + (featureData.properties.orgBudget);
+
+
+			return L.circleMarker(latlng, markerOptions).bindPopup(popupContent, popupOptions);
+
 		}
 	};
 
