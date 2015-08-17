@@ -1,0 +1,119 @@
+/* FONTS */
+
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700,600,300,800);
+
+
+/* TYPOGRAPHY */
+
+* {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+	font-family: "Fjalla One", Helvetica, Arial, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+}
+
+
+/* SIDEBAR LEGAND */
+
+aside {
+	float: left;
+	width: 25%;
+	background: #d8d8d8;
+	height: 600px;
+}
+
+aside h2 {
+	font-size: 24px;
+	text-align: center;
+}
+
+aside h3 {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 35px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin-left: 10%;
+}
+
+#org-budget-list li, #grant-amount-list li {
+	margin: 10px;
+}
+
+.org-budget, .grant-amount {
+	display: inline-block;
+}
+
+.org-budget {
+	border-radius: 50%;
+	background: #006e85;
+}
+
+#budget-tier1 {
+	height: 15px;
+	width: 15px;
+}
+
+#budget-tier2 {
+	height: 12px;
+	width: 12px;
+}
+
+#budget-tier3 {
+	height: 9px;
+	width: 9px;
+}
+
+#budget-tier4 {
+	height: 6px;
+	width: 6px;
+}
+
+#budget-tier5 {
+	height: 3px;
+	width: 3px;
+}
+
+.grant-amount {
+	height: 12px;
+	width: 12px;
+}
+
+#grant-tier1 {
+	background: #002C35;
+}
+
+#grant-tier2 {
+	background: #006e85;
+}
+
+#grant-tier3 {
+	background: #4d9aaa;
+}
+
+#grant-tier4 {
+	background: #99c5c3;
+}
+
+/* MAPS */
+
+#map { 
+	height: 600px;
+	width: 75%;
+	float: right;
+}
