@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="">
+    
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,17 +11,16 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <!--referenced stylsheets-->
+        <!--referenced stylesheets - Bootstrap, Leaflet, and custom stlyes-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
-        
-        <!-- Optional theme - Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-        <!--referenced scripts-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>       
-    </head>
+        <!--referenced scripts- JQuery and typekit-->
+        <script src="//use.typekit.net/yci0sng.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        </head>
     
     <body>
       
@@ -35,46 +35,35 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand">
+              <img src="images/rocking_chair_logo.png" id= "maplogo" alt=rocking chair>
+          </a>
+     </div>
+
+        <!--nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="map.html">Map<span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!--END of navigation bar-->
+
+    <!--text for home page -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>AGING OUT OF PLACE</h1>
+        <p>How have emerging development trends in Philadelphia impacted access to services and resources for the elderly population?</p>
+        <h3 id="view_map"><a href="map.html">View the Map</a></h3>
+      </div>
+    </div> 
+    
+    <div class="about_project">
+    <h4> About the Project </h4>
+    <p>As a “city of neighborhoods”, much of Philadelphia’s culture has been established by long term residents. As the city has finally begun to see a population increase, attention has been focused on the influx of millennials and young families living in (or returning to) Philadelphia. However, less analysis has been completed to determine how these current trends have impacted (or will soon impact) the city’s elderly population. </br>
+    </br>
+    Currently, Philadelphia ranks 12th in the nation among areas experiencing a boom in gentrification. Growth in Philadelphia has not been widespread and is limited mostly to only a few select neighborhoods, such as West, South and Lower North Philadelphia. Anecdotally, many have claimed that new development is displacing low-income and elderly residents, so this project seeks to examine what geographic patterns exists. </p>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Map<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Data</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-
-    <!--sidebar with map and project description-->
-        <div id="map-description">
-           <p>Here's my text box</p> 
-        </div>
-
-        <!--Leaflet Map Section-->
-        <div id="map"></div>
-        <script type="text/javascript">
-        var map = L.map('map').setView([39.969, -75.216], 13);
-
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-            maxZoom: 18,
-            id: 'danaecmobley.93c497b4',
-            accessToken: 'pk.eyJ1IjoiZGFuYWVjbW9ibGV5IiwiYSI6ImI4NTk0YWM4MWJlYjJiY2Y5ZWZmNjlmM2ViMGExYzk4In0.Lo6VOcZ5ZkTq9VVYDJo4Ew'
-            }).addTo(map);
-        </script>
-        <!--end Leaflet Map section-->
     </body>
 </html>

@@ -1,0 +1,22 @@
+#maplogo {
+    width: 35px;
+    height: 35px;
+}
+
+#map {
+	height:700px;
+}
+
+#project_sidebar {
+	width: 300px;
+	float: left;
+	padding:20px;
+}
+
+h5{
+  font-family: "trumpgothicpro", sans-serif;
+  font-size: 30px;
+}
+
+li{
+    color:#000000;
