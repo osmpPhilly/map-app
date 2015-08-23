@@ -15,11 +15,11 @@ var dataSuccess = function(jsonData) {
             var getColor = function(x) {
             var color = '#99c5c3';
 
-			if (x > 49999) {
+			if (x > 14000) {
 			  color = '#002C35';
-			} else if (x > 24999) {
+			} else if (x > 10000) {
 			  color = '#006e85';
-			} else if (x > 14999) {
+			} else if (x > 5000) {
 			  color = '#4d9aaa';
 			}
 
@@ -35,14 +35,16 @@ var dataSuccess = function(jsonData) {
 			  radius = 12;
 			} else if (x > 150000) {
 			  radius = 9;
-			} 
+			} else if (x > 50000) {
+			  radius = 6;
+			}
 
 			return radius;
 			},
 
 			markerOptions = {
 				color: '#f1f2f2',
-				fillOpacity: 0.8,
+				fillOpacity: 0.7,
 				fillColor: getColor(featureData.properties.grantAmount),
 				radius: getRadius(featureData.properties.orgBudget),
 			}
