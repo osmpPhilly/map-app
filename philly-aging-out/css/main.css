@@ -266,9 +266,6 @@ textarea {
     }
 }
 
-li{
-    color:#000000;
-}
 
 #maplogo {
     width: 35px;
@@ -307,29 +304,34 @@ li{
 
 #view_map {
   background-color: #FF9004;
-  font-color: #FFFFFF;
-  font-family: sans-serif;
-  font-size: 24px;
-  text-align: center;
   width: 300px;
   height: 70px;
   margin-left: auto;
   margin-right: auto;
-  text align: center;
   padding-top: 20px;
+}
+
+#view_map a {
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 70px;
 }
 
 .about_project {
   width: 700px;
   margin-left: auto;
   margin-right: auto;
-
+  padding-bottom: 100px;
 }
+
 .about_project p {
   font-family: sans-serif;
   font-size: 20px;
   text-align: left;
-  padding-bottom: 100px;
 }
 
 h4{
@@ -339,5 +341,12 @@ h4{
   text-align: left;
   padding: 40px 0px 40px 0px;
   text-transform: uppercase;
+}
+
+li{
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: #000000;
 }
 

@@ -8,18 +8,18 @@ var map = L.map('map').setView([39.969, -75.216], 13);
     }).addTo(map);
 
     //start Census Tracts
-    function addTractsToMap(data, map) {
-        var layerOptions= { 
-            style: function(featureData) {
-                console.log(featureData.properties.median_age);
-                var x = featureData.properties.median_age;
-            }
-        };
-        var dataLayer = L.geoJson(data, layerOptions);
-        dataLayer.addTo(map);
-        }
+    //function addTractsToMap(data, map) {
+        //var layerOptions= { 
+            //style: function(featureData) {
+                //console.log(featureData.properties.PERCENT65);
+                //var x = featureData.properties.PERCENT65;   
+            //}
+        //};
+       // var dataLayer = L.geoJson(data, layerOptions);
+       // dataLayer.addTo(map);
+        //}
 
-    $.getJSON("data/Census_Tracts_2010.json", function(data) { addTractsToMap(data, map); });
+    //$.getJSON("data/AOP_Census_map.geojson", function(data) {addTractsToMap(data, map); });
     //end Census tracts
 
     //start Philadelphia farmers market locations 
@@ -70,7 +70,7 @@ var map = L.map('map').setView([39.969, -75.216], 13);
                 pointToLayer: function(featureData, latlng) {            
 
                     markerOptions = {
-                        color: '#000000',
+                        color: '#1A0126',
                         fillOpacity: 0.8,
                         };
                     return L.circleMarker(latlng, markerOptions);
@@ -87,13 +87,13 @@ var map = L.map('map').setView([39.969, -75.216], 13);
         var dataHospitals = function(jsonData) {
             console.log(jsonData);
             var layerOptions = {
-                pointToLayer: function(featureData, latlng) {            
+                pointToLayer: function(featureData, xy) {            
 
                     markerOptions = {
                         color: '#FF0000',
                         fillOpacity: 0.4,
                         };
-                    return L.circleMarker(latlng, markerOptions);
+                    return L.circleMarker(xy, markerOptions);
                     }
                 };
             var centerLayer = L.geoJson(jsonData, layerOptions);
