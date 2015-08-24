@@ -10,8 +10,18 @@
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, .navbar-brand {
+h1, h2, h3, h4, h5, h6, .navbar-brand, .btn-primary {
 	font-family: "Fjalla One", Helvetica, Arial, sans-serif;
+	color: #434141;
+}
+
+a {
+	color: #338b9d;
+	transition: color 0.25s ease-in-out;
+}
+
+a:visited, a:hover, a:active {
+	color: #006e85;
 }
 
 /* NAVBAR */
@@ -20,39 +30,100 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 	margin-bottom: 0;
 }
 
+.navbar-default .navbar-nav>li>a {
+	color: #338b9d;
+}
+
+
 .navbar-brand {
 	text-transform: uppercase;
 }
 
+/* JUMBOTRON */
+
+.jumbotron {
+	background: 
+		linear-gradient(
+      		rgba(0, 110, 133, 0.6),
+      		rgba(0, 110, 133, 0.6)
+    	),
+		url(images/playonphilly.jpg) no-repeat;
+	background-size: cover;
+	height: 650px;
+	padding: 0;
+	margin: 0 0 30px 0;
+	position: relative;
+}
+
+.jumbotron-caption {
+	position: absolute;
+	top: 25%;
+	left: 15%;
+	text-transform: uppercase;
+}
+
+.jumbotron-caption>h2, .jumbotron-caption>h1, .jumbotron-caption>h4 {
+	color: #f1f2f2;
+}
+
+/* BUTTON */
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
+	color: #f1f2f2 !important;
+	background-color: #c0003b;
+	border-color: #c0003b;
+	border-radius: 0;
+}
+
+.btn:focus {
+	outline: 5px auto #c0003b;
+}
+
+
+/* MAIN */
+
+main {
+	background: #f1f2f2;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+}
 
 /* SIDEBAR LEGAND */
 
 aside {
-	float: left;
-	width: 25%;
+	width: 20%;
 	background: #d8d8d8;
-	height: 600px;
+	position: absolute;
+	bottom: 75px;
+	right: 50px;
+	box-shadow: 0 0 10px rgba(120, 120, 120, 0.5);
 }
 
 aside h2 {
-	font-size: 24px;
+	font-size: 16px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 aside h3 {
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
-	margin-top: 35px;
+	margin-top: 10px;
 }
 
+aside li {
+	font-size: 14px;
 
-ul {
+}
+
+aside ul {
 	list-style-type: none;
-	margin-left: 10%;
+	margin-left: 10px;
+	padding-left: 20px;
 }
 
 #org-budget-list li, #grant-amount-list li {
-	margin: 10px;
+	margin: 5px;
 }
 
 .org-budget, .grant-amount {
@@ -110,16 +181,68 @@ ul {
 	background: #99c5c3;
 }
 
-/* MAPS */
+/* MAP */
 
 #map { 
 	height: 600px;
-	width: 75%;
+	width: 100%;
 	float: right;
+	border: 3px solid #dedede;
+	margin-bottom: 50px;
+	margin-top: 0px;
+}
+
+.map-section h4 {
+	color: #434141;
+	padding-top: 2em;
 }
 
 
 .org-name a {
 	color: #006e85;
 	font-weight: 600;
+}
+
+/* MODAL */
+
+.modal-body p{
+	text-align: initial;
+	margin-bottom: 15px;
+}
+
+.modal-body h4 {
+	margin-bottom: 0;
+}
+
+
+/* FOOTER */
+
+.footer-left-section {
+	text-align: left;
+}
+
+
+
+footer {
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+}
+
+footer ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+img {
+	height: 75px;
+	margin-right: 20px;
+}
+
+footer a img{
+	opacity: 0.7;
+	transition: opacity 0.25s ease-in-out;
+}
+
+footer a img:hover {
+	opacity: 1.0;
 }
