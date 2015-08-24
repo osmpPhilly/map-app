@@ -562,7 +562,219 @@
             "grantAmount": "8959",
             "orgBudget": "1652869"
           }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.140491, 39.973248]
+          },
+          "properties": {
+            "name": "Bach Festival of Philadelphia",
+            "address": "1400 N American St # 412",
+            "zip": "19122",
+            "website": "https://www.facebook.com/BachFestPhila",
+            "grantAmount": "8689",
+            "orgBudget": "69311"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.168769, 39.940146]
+          },
+          "properties": {
+            "name": "Bainbridge House, Inc.",
+            "address": "1520 Christian St",
+            "zip": "19146",
+            "website": "",
+            "grantAmount": "5925",
+            "orgBudget": "10314"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.168769, 39.940146]
+          },
+          "properties": {
+            "name": "Bainbridge House, Inc.",
+            "address": "1520 Christian St",
+            "zip": "19146",
+            "website": "",
+            "grantAmount": "5925",
+            "orgBudget": "10314"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.169235, 39.927924]
+          },
+          "properties": {
+            "name": "BalletFleming",
+            "address": "1802 S Broad St",
+            "zip": "19145",
+            "website": "http://www.balletfleming.org/",
+            "grantAmount": "8374",
+            "orgBudget": "50231"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.164306, 39.947172]
+          },
+          "properties": {
+            "name": "BalletX",
+            "address": "265 S Broad St",
+            "zip": "19107",
+            "website": "http://www.balletx.org/",
+            "grantAmount": "12657",
+            "orgBudget": "744362"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.172203, 39.960768]
+          },
+          "properties": {
+            "name": "Barnes Foundation",
+            "address": "2025 Benjamin Franklin Pkwy",
+            "zip": "19130",
+            "website": "http://www.barnesfoundation.org/",
+            "grantAmount": "11090",
+            "orgBudget": "32008116"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.16295, 39.949346]
+          },
+          "properties": {
+            "name": "Center City Opera Theater, Inc.",
+            "address": "1315 Walnut St #320",
+            "zip": "19107",
+            "website": "http://www.vulcanlyric.org/",
+            "grantAmount": "10772",
+            "orgBudget": "350000"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.160445, 39.953929]
+          },
+          "properties": {
+            "name": "Philadelphia Center for Architecture",
+            "address": "1218 Arch St",
+            "zip": "19107",
+            "website": "http://philadelphiacfa.org/",
+            "grantAmount": "10390",
+            "orgBudget": "720148"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.144771, 39.953315]
+          },
+          "properties": {
+            "name": "Center for Art in Wood, The",
+            "address": "141 N 3rd St",
+            "zip": "19106",
+            "website": "http://www.centerforartinwood.org/",
+            "grantAmount": "10212",
+            "orgBudget": "624347"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.170773, 39.948656]
+          },
+          "properties": {
+            "name": "Center for Emerging Visual Artists, The",
+            "address": "237 S 18th St # 3A",
+            "zip": "19103",
+            "website": "http://www.cfeva.org/",
+            "grantAmount": "11000",
+            "orgBudget": "415067"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.167156, 39.948324]
+          },
+          "properties": {
+            "name": "Chamber Orchestra of Philadelphia",
+            "address": "1520 Locust St #500",
+            "zip": "19102",
+            "website": "http://www.chamberorchestra.org/",
+            "grantAmount": "14408",
+            "orgBudget": "1742762"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.153729, 39.957236]
+          },
+          "properties": {
+            "name": "Chinese American Women's Sisterhood Society of Philadelphia",
+            "address": "301-305 N 9th Street",
+            "zip": "19107",
+            "website": "",
+            "grantAmount": "6308",
+            "orgBudget": "29373"
+          }
+      },
+
+       { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.168512, 39.949534]
+          },
+          "properties": {
+            "name": "Choral Arts Society of Philadelphia",
+            "address": "1616 Walnut St # 711",
+            "zip": "19103",
+            "website": "http://www.choralarts.com/",
+            "grantAmount": "7447",
+            "orgBudget": "102047"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.14425, 39.950876]
+          },
+          "properties": {
+            "name": "Christ Church Preservation Trust",
+            "address": "20 North American St.",
+            "zip": "19106",
+            "website": "http://www.christchurchphila.org/Historic-Christ-Church/Preservation-Trust/62/",
+            "grantAmount": "14041",
+            "orgBudget": "1734196"
+          }
       }
+
+
 
     ]
 }
