@@ -1,5 +1,5 @@
 
-var map = L.map('map').setView([39.957, -75.177], 14);
+var map = L.map('map').setView([39.99, -75.14], 12);
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
@@ -9,12 +9,11 @@ var map = L.map('map').setView([39.957, -75.177], 14);
 
     //start Census Tracts
     function getColor(percentage) {
-        return percentage > 30  ? '#E31A1C' :
-               percentage > 20  ? '#FC4E2A' :
-               percentage > 10   ? '#FD8D3C' :
-               percentage > 5   ? '#FEB24C' :
-               percentage > 0   ? '#FED976' :
-                          '#FFEDA0';
+        return percentage > 30  ? '#7A0177' :
+               percentage > 20  ? '#C51B8A' :
+               percentage > 12   ? '#F768A1' :
+               percentage > 6   ? '#FBB4B9' :
+                          '#FEEBE2';
     }
     function addTractsToMap(data, map) {
         var layerOptions= { 
@@ -22,12 +21,14 @@ var map = L.map('map').setView([39.957, -75.177], 14);
                 console.log(featureData.properties.PERCENT65);
                 return {
                     fillColor: getColor(featureData.properties.PERCENT65),
-                    weight: 2,
+                    weight: 1,
                     opacity: 1,
                     color: 'white',
-                    dashArray: '3',
-                    fillOpacity: 0.7
+                    fillOpacity: 0.7,
                 };
+            },
+            onEachFeature: function (featureData, layer) {
+                layer.bindPopup("Median age =" + featureData.properties.PERCENT65 + "");
             }
         };
         var dataLayer = L.geoJson(data, layerOptions);
