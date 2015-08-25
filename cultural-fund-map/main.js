@@ -15,11 +15,11 @@ var dataSuccess = function(jsonData) {
             var getColor = function(x) {
             var color = '#99c5c3';
 
-			if (x > 14000) {
+			if (x > 13999) {
 			  color = '#002C35';
-			} else if (x > 10000) {
+			} else if (x > 9999) {
 			  color = '#006e85';
-			} else if (x > 5000) {
+			} else if (x > 4999) {
 			  color = '#4d9aaa';
 			}
 
@@ -29,13 +29,13 @@ var dataSuccess = function(jsonData) {
 			getRadius = function(x) {
 			var radius = 3;
 
-			if (x > 1500000) {
+			if (x > 1499999) {
 			  radius = 15;
-			} else if (x > 400000) {
+			} else if (x > 399999) {
 			  radius = 12;
-			} else if (x > 150000) {
+			} else if (x > 149999) {
 			  radius = 9;
-			} else if (x > 50000) {
+			} else if (x > 49999) {
 			  radius = 6;
 			}
 
