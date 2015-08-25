@@ -308,6 +308,7 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
+  opacity: 0.8;
 }
 
 #view_map a {

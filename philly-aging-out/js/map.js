@@ -1,5 +1,5 @@
 
-var map = L.map('map').setView([39.99, -75.14], 12);
+var map = L.map('map').setView([39.988, -75.146], 12);
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
@@ -27,9 +27,9 @@ var map = L.map('map').setView([39.99, -75.14], 12);
                     fillOpacity: 0.7,
                 };
             },
-            onEachFeature: function (featureData, layer) {
-                layer.bindPopup("Median age =" + featureData.properties.PERCENT65 + "");
-            }
+            //onEachFeature: function (featureData, layer) {
+                //layer.bindPopup("Median age =" + featureData.properties.PERCENT65 + "");
+            //}
         };
         var dataLayer = L.geoJson(data, layerOptions);
        dataLayer.addTo(map);
@@ -46,36 +46,44 @@ var map = L.map('map').setView([39.99, -75.14], 12);
 
                         markerOptions = {
                             color: '#54FF1E',
-                            fillOpacity: 0.8,
+                            fillOpacity: 1,
                             };
+                        
                         return L.circleMarker(latlng, markerOptions);
-                        }
+                        },
+                    onEachFeature: function (featureData, layer) {
+                    layer.bindPopup ("<b>Market Name:</b>" + " " + featureData.properties.FARMER_S_MARKET_NAME + " "
+                        )
+                    }
                     };
                 var farmerLayer = L.geoJson(jsonData, layerOptions);
                 map.addLayer(farmerLayer);
             }; 
 
-            $.getJSON("data/Philadelphia_Farmers_Markets.json", dataFarmers);
+    $.getJSON("data/Philadelphia_Farmers_Markets.json", dataFarmers);
     //end Philadelphia farmers market locations
 
     //start Philadelphia older adult centers
-            var dataOldercenters = function(jsonData) {
+            var dataOlderCenters = function(jsonData) {
                 console.log(jsonData);
                 var layerOptions = {
                     pointToLayer: function(featureData, latlng) {            
 
                         markerOptions = {
                             color: '#FFBA1E',
-                            fillOpacity: 0.8,
+                            fillOpacity: 0.9,
                             };
                         return L.circleMarker(latlng, markerOptions);
-                        }
-                    };
-                var OlderLayer = L.geoJson(jsonData, layerOptions);
-                map.addLayer(OlderLayer);
+                        },
+                    onEachFeature: function(featureData, layer) {
+                    layer.bindPopup ("<b>Site Name:</b>"+ " " + featureData.properties.SITE + " ")
+                    }
+                };
+            var OlderLayer = L.geoJson(jsonData, layerOptions);
+            map.addLayer(OlderLayer);
             }; 
 
-            $.getJSON("data/Older_Adult_Centers_point.geojson", dataOldercenters);
+    $.getJSON("data/Older_Adult_Centers_point.geojson", dataOlderCenters);
     //end Philadelphia older adult centers
 
 
@@ -87,7 +95,7 @@ var map = L.map('map').setView([39.99, -75.14], 12);
 
                     markerOptions = {
                         color: '#1A0126',
-                        fillOpacity: 0.8,
+                        fillOpacity: 0.9,
                         };
                     return L.circleMarker(latlng, markerOptions);
                     }
@@ -106,8 +114,8 @@ var map = L.map('map').setView([39.99, -75.14], 12);
                 pointToLayer: function(featureData, xy) {            
 
                     markerOptions = {
-                        color: '#FF0000',
-                        fillOpacity: 0.4,
+                        color: '#FFFFFF',
+                        fillOpacity: 0.9,
                         };
                     return L.circleMarker(xy, markerOptions);
                     }
