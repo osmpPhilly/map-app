@@ -772,8 +772,474 @@
             "grantAmount": "14041",
             "orgBudget": "1734196"
           }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.154966, 39.938836]
+          },
+          "properties": {
+            "name": "Da Vinci Art Center",
+            "address": "704 Catharine St",
+            "zip": "19147",
+            "website": "http://www.davinciartalliance.org/",
+            "grantAmount": "7313",
+            "orgBudget": "25000"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.172108, 39.962204]
+          },
+          "properties": {
+            "name": "Dance Affiliates",
+            "address": "2000 Hamilton St",
+            "zip": "19130",
+            "website": "https://danceaffiliates.org/",
+            "grantAmount": "9981",
+            "orgBudget": "1038886"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.194088, 39.959003]
+          },
+          "properties": {
+            "name": "DANCEFUSION",
+            "address": "3611 Lancaster Avenue",
+            "zip": "19104",
+            "website": "http://www.gbyedance.org/",
+            "grantAmount": "11527",
+            "orgBudget": "276973"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.21663, 39.952616]
+          },
+          "properties": {
+            "name": "Dancing Classrooms Philly",
+            "address": "4701 Pine Street",
+            "zip": "19143",
+            "website": "http://www.dancingclassroomsphilly.org/",
+            "grantAmount": "9806",
+            "orgBudget": "212694"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.175759, 39.957191]
+          },
+          "properties": {
+            "name": "Dolce Suono Chamber Music Concert Series",
+            "address": "135 N 22nd Street",
+            "zip": "19103",
+            "website": "http://dolcesuono.com/",
+            "grantAmount": "9255",
+            "orgBudget": "84588"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.17272, 39.968328]
+          },
+          "properties": {
+            "name": "Eastern State Penitentiary Historic Site",
+            "address": "2027 Fairmount Ave",
+            "zip": "19130",
+            "website": "http://www.easternstate.org/",
+            "grantAmount": "9293",
+            "orgBudget": "3085902"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.183637, 40.038238]
+          },
+          "properties": {
+            "name": "Ebenezer Maxwell Mansion, Inc.",
+            "address": "200 W Tulpehocken St",
+            "zip": "19144",
+            "website": "http://www.ebenezermaxwellmansion.org/",
+            "grantAmount": "5888",
+            "orgBudget": "155584"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.159245, 39.958008]
+          },
+          "properties": {
+            "name": "EgoPo_ Productions",
+            "address": "1219 Vine St",
+            "zip": "19107",
+            "website": "http://www.egopo.org/",
+            "grantAmount": "9885",
+            "orgBudget": "144627"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.16589, 39.933407]
+          },
+          "properties": {
+            "name": "Eleone Dance Theatre",
+            "address": "1321 S Juniper St",
+            "zip": "19147",
+            "website": "http://www.eleonedance.org/",
+            "grantAmount": "8000",
+            "orgBudget": "25000"
+          }
+      },
+
+       { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.164532, 39.950372]
+          },
+          "properties": {
+            "name": "Enchantment Theatre Company",
+            "address": "100 S Broad St # 1318",
+            "zip": "19110",
+            "website": "http://www.enchantmenttheatre.org/",
+            "grantAmount": "10089",
+            "orgBudget": "722494"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.046118, 40.042391]
+          },
+          "properties": {
+            "name": "En 'L' Air Dance Company",
+            "address": "3132 Windish St",
+            "zip": "19152",
+            "website": "",
+            "grantAmount": "2018",
+            "orgBudget": "25000"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.166917, 39.949553]
+          },
+          "properties": {
+            "name": "Encore Series, Inc. dba The Philly POPS",
+            "address": "1518 Walnut Street",
+            "zip": "19102",
+            "website": "http://www.phillypops.com/",
+            "grantAmount": "7883",
+            "orgBudget": "3586227"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.181305, 40.048083]
+          },
+          "properties": {
+            "name": "Cliveden of The National Trust",
+            "address": "6401 Germantown Ave",
+            "zip": "19144",
+            "website": "http://www.cliveden.org/",
+            "grantAmount": "15500",
+            "orgBudget": "1500000"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.175926, 40.03514]
+          },
+          "properties": {
+            "name": "Commonwealth Youthchoirs, Inc.",
+            "address": "35 W. Chelten Ave",
+            "zip": "19144",
+            "website": "http://cychoirs.org/",
+            "grantAmount": "10027",
+            "orgBudget": "1226156"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.183148, 39.922496]
+          },
+          "properties": {
+            "name": "Concert Operetta Theater",
+            "address": "2129 W. Ritner Street",
+            "zip": "19145",
+            "website": "http://www.concertoperetta.com/",
+            "grantAmount": "2760",
+            "orgBudget": "25488"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.180895, 40.04402]
+          },
+          "properties": {
+            "name": "Concord School & Upper Burying Ground",
+            "address": "6309 Germantown Avenue",
+            "zip": "19144",
+            "website": "http://www.concordschoolhouse.org/",
+            "grantAmount": "4000",
+            "orgBudget": "25000"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.174967, 39.953187]
+          },
+          "properties": {
+            "name": "Conservation Ctr for Art & Hist Artifacts",
+            "address": "264 South 23rd Street",
+            "zip": "19103",
+            "website": "http://www.ccaha.org/",
+            "grantAmount": "12171",
+            "orgBudget": "2899990"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.225604, 40.026487]
+          },
+          "properties": {
+            "name": "COSA COSA art at large, Inc.",
+            "address": "4427 Main Street",
+            "zip": "19127",
+            "website": "http://www.cosacosa.org/",
+            "grantAmount": "12158",
+            "orgBudget": "185625"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.218503, 39.948148]
+          },
+          "properties": {
+            "name": "Crossroads Music",
+            "address": "801 S 48th St",
+            "zip": "19142",
+            "website": "http://crossroadsconcerts.org/",
+            "grantAmount": "9000",
+            "orgBudget": "120135"
+          }
+      },
+
+       { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.16295, 39.949346]
+          },
+          "properties": {
+            "name": "CultureWorks Greater Philadelphia",
+            "address": "1315 Walnut Street, Suite 320",
+            "zip": "19107",
+            "website": "http://www.cultureworksphila.org/",
+            "grantAmount": "7925",
+            "orgBudget": "610631"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.218418, 39.948201]
+          },
+          "properties": {
+            "name": "Curio Theatre Company",
+            "address": "4740 Baltimore Ave",
+            "zip": "19143",
+            "website": "http://www.curiotheatre.org/",
+            "grantAmount": "8704",
+            "orgBudget": "25000"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.160239, 39.953709]
+          },
+          "properties": {
+            "name": "Fabric Workshop and Museum",
+            "address": "1214 Arch St",
+            "zip": "19107",
+            "website": "http://www.fabricworkshopandmuseum.org/",
+            "grantAmount": "8342",
+            "orgBudget": "1731649"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.192457, 40.034822]
+          },
+          "properties": {
+            "name": "Fairmount Park Historic Preservation",
+            "address": "6245 Wissahickon Avenue",
+            "zip": "19144",
+            "website": "http://www.fairmountparktrust.org/",
+            "grantAmount": "10000",
+            "orgBudget": "605366"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.136295, 39.976419]
+          },
+          "properties": {
+            "name": "Fidget",
+            "address": "1714 North Mascher Street",
+            "zip": "19122",
+            "website": "http://www.thefidget.org/",
+            "grantAmount": "$2,867",
+            "orgBudget": "30186"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.144768, 39.970418]
+          },
+          "properties": {
+            "name": "First Person Arts (formerly Blue Sky)",
+            "address": "443 W Girard Ave #2C",
+            "zip": "19123",
+            "website": "http://www.firstpersonarts.org",
+            "grantAmount": "14108",
+            "orgBudget": "335466"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.165966, 39.947231]
+          },
+          "properties": {
+            "name": "Flashpoint Theatre Company",
+            "address": "1427 Spruce Street #1F",
+            "zip": "19102",
+            "website": "http://www.flashpointtheatre.org/",
+            "grantAmount": "7110",
+            "orgBudget": "25000"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.208337, 39.891045]
+          },
+          "properties": {
+            "name": "Fort Mifflin On The Delaware",
+            "address": "82 For Mifflin Rd",
+            "zip": "19153",
+            "website": "http://www.fortmifflin.us",
+            "grantAmount": "10561",
+            "orgBudget": "209894"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.16889, 39.97321]
+          },
+          "properties": {
+            "name": "Founder's Hall at Girard College",
+            "address": "2101 S. COLLEGE AVE",
+            "zip": "19121",
+            "website": "http://www.girardcollege.edu/page.cfm?p=834",
+            "grantAmount": "7308",
+            "orgBudget": "831248"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.172626, 39.958139]
+          },
+          "properties": {
+            "name": "Franklin Institute",
+            "address": "222 N 20th St",
+            "zip": "19103",
+            "website": "https://www.fi.edu/",
+            "grantAmount": "14000",
+            "orgBudget": "29033090"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.187555, 40.004196]
+          },
+          "properties": {
+            "name": "Friends of Laurel Hill Cemetery (FLHC)",
+            "address": "3822 Ridge Ave",
+            "zip": "19132",
+            "website": "http://www.thelaurelhillcemetery.org",
+            "grantAmount": "9744",
+            "orgBudget": "471819"
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.140385, 39.953303]
+          },
+          "properties": {
+            "name": "FringeArts",
+            "address": "140 N Columbus Blvd",
+            "zip": "19106",
+            "website": "http://wwww.fringearts.com/",
+            "grantAmount": "12984",
+            "orgBudget": "3533911"
+          }
       }
 
+      
 
 
     ]
