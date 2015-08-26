@@ -47,7 +47,7 @@ var map = L.map('map').setView([39.988, -75.146], 12);
 
                         markerOptions = {
                             color: '#54FF1E',
-                            fillOpacity: 0.8,
+                            fillOpacity: 0.9,
                             };
                         
                         return L.circleMarker(latlng, markerOptions);
@@ -111,25 +111,6 @@ var map = L.map('map').setView([39.988, -75.146], 12);
         $.getJSON("data/Philadelphia_Health_Centers.json", dataCenters);
     //end health centers
 
-    //start Philadelphia hospitals  
-        var dataHospitals = function(jsonData) {
-            console.log(jsonData);
-            var layerOptions = {
-                pointToLayer: function(featureData, latlng) {            
-
-                    markerOptions = {
-                        color: '#FFFFFF',
-                        fillOpacity: 0.8,
-                        };
-                    return L.circleMarker(latlng, markerOptions);
-                    }
-                };
-            var centerLayer = L.geoJson(jsonData, layerOptions);
-            map.addLayer(centerLayer);
-        }; 
-
-        $.getJSON("data/DOH_Hospitals201011.json", dataHospitals);
-    //end Philadelphia hospitals
 
 
 

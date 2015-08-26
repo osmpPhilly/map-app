@@ -271,6 +271,12 @@ textarea {
     height: 25px;
 }
 
+#webtitle {
+    font-family: "trumpgothicpro",sans-serif;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
 .jumbotron {
   background-image: url(../images/elderly_couple_blue.jpg);
   height: 700px;
@@ -330,7 +336,7 @@ textarea {
 
 .about_project p {
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -339,14 +345,31 @@ h4{
   font-size: 36px;
   font-weight: bold;
   text-align: left;
-  padding: 40px 0px 40px 0px;
+  padding: 40px 0px 20px 0px;
   text-transform: uppercase;
 }
 
 li{
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   color: #000000;
 }
+
+#osmp_logo {
+  width: 90px;
+  height: 80px;
+}
+#gdi_logo {
+  width: 80px;
+  height: 80px;
+}
+
+#cfp_logo{
+  width: 60px;
+  height: 100px;
+}
+
+
+
 

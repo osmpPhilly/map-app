@@ -17,11 +17,12 @@
 
 h5{
   font-family: "trumpgothicpro", sans-serif;
-  font-size: 21px;
+  font-size: 24px;
   text-transform: uppercase;
+  padding-top: 10px;
 }
 
-h5 p{
+p{
     color:#000000;
     font-family: , "trumpgothicpro", sans-serif;
     font-size: 14px;
