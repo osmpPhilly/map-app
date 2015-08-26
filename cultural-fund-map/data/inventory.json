@@ -1222,10 +1222,217 @@
             "grantAmount": 12984,
             "orgBudget": 3533911
           }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.170444, 39.948764]
+          },
+          "properties": {
+            "name": "Curtis Institute of Music",
+            "address": "1726 Locust St",
+            "zip": "19103",
+            "website": "http://www.curtis.edu/",
+            "grantAmount": 13914,
+            "orgBudget": 18784965
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.171801, 39.957229]
+          },
+          "properties": {
+            "name": "Galleries at Moore, The",
+            "address": "1916 Race St",
+            "zip": "19103",
+            "website": "http://moore.edu/the-galleries-at-moore",
+            "grantAmount": 9544,
+            "orgBudget": 1500000
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.194548, 40.04577]
+          },
+          "properties": {
+            "name": "Gas and Electric Arts",
+            "address": "6757 Greene Street, Suite 301, Office #1",
+            "zip": "19119",
+            "website": "http://www.gasandelectricarts.org/",
+            "grantAmount": 8010,
+            "orgBudget": 49163
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.157254, 40.001703]
+          },
+          "properties": {
+            "name": "Georgia E. Gregory School of Music",
+            "address": "1628-30 W. Allegheny Avenue",
+            "zip": "19132",
+            "website": "http://gegisom2.tripod.com/",
+            "grantAmount": 6836,
+            "orgBudget": 57022
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.149145, 39.961637]
+          },
+          "properties": {
+            "name": "German Society of Pennsylvania",
+            "address": "611 Spring Garden St",
+            "zip": "19132",
+            "website": "http://www.germansociety.org",
+            "grantAmount": 10475,
+            "orgBudget": 528611
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.179268, 40.041629]
+          },
+          "properties": {
+            "name": "Germantown Mennonite Historic Trust",
+            "address": "6133 Germantown Ave",
+            "zip": "19144",
+            "website": "http://www.meetinghouse.info/",
+            "grantAmount": 6198,
+            "orgBudget": 25000
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.164711, 39.945202]
+          },
+          "properties": {
+            "name": "Gershman Y, The",
+            "address": "401 S Broad St,",
+            "zip": "19147",
+            "website": "http://www.gershmany.org/",
+            "grantAmount": 9974,
+            "orgBudget": 1169079
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.130625, 39.978387]
+          },
+          "properties": {
+            "name": "Girls Rock Philly",
+            "address": "1867 Frankford Ave",
+            "zip": "19125",
+            "website": "http://www.girlsrockphilly.org",
+            "grantAmount": 11367,
+            "orgBudget": 129538
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-74.978852, 40.051577]
+          },
+          "properties": {
+            "name": "Glen Foerd Conservation Corp.",
+            "address": "5001 Grant Ave",
+            "zip": "19114",
+            "website": "http://www.glenfoerd.org",
+            "grantAmount": 8793,
+            "orgBudget": 281908
+          }
+      },
+
+      { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.16295, 39.949346]
+          },
+          "properties": {
+            "name": "Greater Philadelphia Cultural Alliance, The",
+            "address": "1315 Walnut St #732",
+            "zip": "19107",
+            "website": "https://www.philaculture.org/",
+            "grantAmount": 15000,
+            "orgBudget": 2474940
+          }
+      },
+
+       { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.152618, 39.934396]
+          },
+          "properties": {
+            "name": "Greater Philadelphia Overseas Chinese Association, The",
+            "address": "1108 S. 5th Street",
+            "zip": "19147",
+            "website": "http://www.pcacares.org/OrganizationDetail.aspx?organization=Greater+Philadelphia+Overseas+Chinese+Association",
+            "grantAmount": 8000,
+            "orgBudget": 51506
+          }
+      },
+
+       { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.16295, 39.949346]
+          },
+          "properties": {
+            "name": "GriotWorks",
+            "address": "1315 Walnut Street, #320",
+            "zip": "19107",
+            "website": "http://www.griotworks.org",
+            "grantAmount": 2519,
+            "orgBudget": 25000
+          }
+      },
+
+       { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.192602, 39.957669]
+          },
+          "properties": {
+            "name": "Group Motion Multimedia Dance Theater",
+            "address": "3500 Lancaster Ave",
+            "zip": "19104",
+            "website": "http://www.groupmotion.org/",
+            "grantAmount": 8458,
+            "orgBudget": 133490
+          }
+      },
+
+       { "type": "Feature",
+        "geometry": {
+          "type": "Point", 
+          "coordinates": [-75.174626, 40.034387]
+          },
+          "properties": {
+            "name": "G-Town Radio",
+            "address": "24 Maplewood Mall",
+            "zip": "19144",
+            "website": "http://www.gtownradio.com/",
+            "grantAmount": 4517,
+            "orgBudget": 25000
+          }
       }
-
-      
-
 
     ]
 }
