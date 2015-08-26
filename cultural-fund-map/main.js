@@ -12,6 +12,9 @@ var dataSuccess = function(jsonData) {
     var layerOptions = {
         pointToLayer: function(featureData, latlng) {
 
+        	var grantAmount = (featureData.properties.grantAmount).toLocaleString('en');
+        	var orgBudget = (featureData.properties.orgBudget).toLocaleString('en');
+
             var getColor = function(x) {
             var color = '#99c5c3';
 
@@ -53,7 +56,7 @@ var dataSuccess = function(jsonData) {
 				maxWidth: 220,
 			};
 
-			var popupContent = "<span class='org-name'><a href='" + (featureData.properties.website) + "'>" + (featureData.properties.name) + "</a></span> <br> Grant amount: $" + (featureData.properties.grantAmount) + "<br> Budget: $" + (featureData.properties.orgBudget);
+			var popupContent = "<span class='org-name'><a href='" + (featureData.properties.website) + "'>" + (featureData.properties.name) + "</a></span> <br> Grant amount: $" + grantAmount + "<br> Budget: $" + orgBudget;
 
 
 			return L.circleMarker(latlng, markerOptions).bindPopup(popupContent, popupOptions);
