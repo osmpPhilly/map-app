@@ -34,6 +34,7 @@ var map = L.map('map').setView([39.988, -75.146], 12);
         };
         var dataLayer = L.geoJson(data, layerOptions);
        dataLayer.addTo(map);
+       dataLayer.bringToBack();
     }
 
     $.getJSON("data/AOP_Census_map.geojson", function(data) {addTractsToMap(data, map); });
