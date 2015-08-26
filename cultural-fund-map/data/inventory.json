@@ -12,8 +12,8 @@
             "address": "100 W Oxford St",
             "zip": "19122",
             "website": "http://www.theartwell.org/",
-            "grantAmount": "11150",
-            "orgBudget": "544015"
+            "grantAmount": 11150,
+            "orgBudget": 544015
           }
         },
       { "type": "Feature",
@@ -26,8 +26,8 @@
             "address": "139 N 2nd St",
             "zip": "19106",
             "website": "https://www.theclaystudio.org/",
-            "grantAmount": "15000",
-            "orgBudget": "1809648"
+            "grantAmount": 15000,
+            "orgBudget": 1809648
           }
       },
       { "type": "Feature",
@@ -40,8 +40,8 @@
             "address": "2636 East Auburn Street",
             "zip": "19134",
             "website": "http://www.kulumele.org/",
-            "grantAmount": "10603",
-            "orgBudget": "246735"
+            "grantAmount": 10603,
+            "orgBudget": 246735
           }
       },
       { "type": "Feature",
@@ -54,8 +54,8 @@
             "address": "3025 Walnut Street",
             "zip": "19104",
             "website": "http://www.liveconnections.org/",
-            "grantAmount": "4114",
-            "orgBudget": "196235"
+            "grantAmount": 4114,
+            "orgBudget": 196235
           }
       },
       { "type": "Feature",
@@ -97,8 +97,8 @@
             "address": "4501 Chestnut St",
             "zip": "19139",
             "website": "http://www.playonphilly.org/",
-            "grantAmount": "11759",
-            "orgBudget": "896459"
+            "grantAmount": 11759,
+            "orgBudget": 896459
           }
       },
       { "type": "Feature",
@@ -111,8 +111,8 @@
             "address": "1101 S Broad St",
             "zip": "19147",
             "website": "https://therockschool.org",
-            "grantAmount": "3926",
-            "orgBudget": "5579702"
+            "grantAmount": 3926,
+            "orgBudget": 5579702
           }
       },
        { "type": "Feature",
@@ -125,8 +125,8 @@
             "address": "719 Catharine St",
             "zip": "19147",
             "website": "http://www.fleisher.org/",
-            "grantAmount": "12495",
-            "orgBudget": "2177558"
+            "grantAmount": 12495,
+            "orgBudget": 2177558
           }
       },
       { "type": "Feature",
@@ -139,8 +139,8 @@
             "address": "4212 Chestnut Street, 3rd Floor",
             "zip": "19104",
             "website": "http://www.scribe.org/",
-            "grantAmount": "11350",
-            "orgBudget": "387626"
+            "grantAmount": 11350,
+            "orgBudget": 387626
           }
       },
       { "type": "Feature",
@@ -153,8 +153,8 @@
             "address": "1614 Latimer St",
             "zip": "19103",
             "website": "http://www.printcenter.org/",
-            "grantAmount": "12541",
-            "orgBudget": "536651"
+            "grantAmount": 12541,
+            "orgBudget": 536651
           }
       },
 
@@ -168,8 +168,8 @@
             "address": "2329 S 3rd St",
             "zip": "19148",
             "website": "http://www.11thhourtheatrecompany.org/",
-            "grantAmount": "11730",
-            "orgBudget": "205826"
+            "grantAmount": 11730,
+            "orgBudget": 205826
           }
       },
 
@@ -183,8 +183,8 @@
             "address": "2329 S 3rd St",
             "zip": "19148",
             "website": "http://www.1812productions.org/",
-            "grantAmount": "14000",
-            "orgBudget": "975549"
+            "grantAmount": 14000,
+            "orgBudget": 975549
           }
       },
 
@@ -198,8 +198,8 @@
             "address": "1900 Benjamin Franklin Pkwy",
             "zip": "19103",
             "website": "http://www.ansp.org/",
-            "grantAmount": "12275",
-            "orgBudget": "8834220"
+            "grantAmount": 12275,
+            "orgBudget": 8834220
           }
       },
 
@@ -213,8 +213,8 @@
             "address": "1920 Spruce St",
             "zip": "19103",
             "website": "http://www.avaopera.com/",
-            "grantAmount": "13000",
-            "orgBudget": "5908500"
+            "grantAmount": 13000,
+            "orgBudget": 5908500
           }
       },
 
@@ -228,8 +228,8 @@
             "address": "5530 Chester Ave",
             "zip": "19143",
             "website": "http://acanaus.org/",
-            "grantAmount": "9166",
-            "orgBudget": "660095"
+            "grantAmount": 9166,
+            "orgBudget": 660095
           }
       },
 
@@ -243,8 +243,8 @@
             "address": "526 South 46th Street",
             "zip": "19143",
             "website": "http://www.albustanseeds.org/",
-            "grantAmount": "12296",
-            "orgBudget": "619097"
+            "grantAmount": 12296,
+            "orgBudget": 619097
           }
       },
 
@@ -258,8 +258,8 @@
             "address": "601 W Allens Ln",
             "zip": "19119",
             "website": "https://www.allenslane.org/",
-            "grantAmount": "11102",
-            "orgBudget": "329954"
+            "grantAmount": 11102,
+            "orgBudget": 329954
           }
       },
 
@@ -273,8 +273,8 @@
             "address": "601 W Allens Ln",
             "zip": "19119",
             "website": "https://www.allenslane.org/",
-            "grantAmount": "11102",
-            "orgBudget": "329954"
+            "grantAmount": 11102,
+            "orgBudget": 329954
           }
       },
 
@@ -288,8 +288,8 @@
             "address": "20 N 3rd St #201",
             "zip": "19106",
             "website": "http://www.acfphiladelphia.org/",
-            "grantAmount": "11748",
-            "orgBudget": "149985"
+            "grantAmount": 11748,
+            "orgBudget": 149985
           }
       },
 
@@ -303,8 +303,8 @@
             "address": "124 Elfreth's Alley",
             "zip": "19106",
             "website": "http://www.ahtheatre.org/",
-            "grantAmount": "2239",
-            "orgBudget": "321403"
+            "grantAmount": 2239,
+            "orgBudget": 321403
           }
       },
 
@@ -318,8 +318,8 @@
             "address": "105 S 5th St",
             "zip": "19106",
             "website": "http://www.amphilsoc.org/",
-            "grantAmount": "3977",
-            "orgBudget": "17265388"
+            "grantAmount": 3977,
+            "orgBudget": 17265388
           }
       },
 
@@ -333,8 +333,8 @@
             "address": "1900 Pattison Ave",
             "zip": "19145",
             "website": "http://www.americanswedish.org/",
-            "grantAmount": "10417",
-            "orgBudget": "675156"
+            "grantAmount": 10417,
+            "orgBudget": 675156
           }
       },
 
@@ -348,8 +348,8 @@
             "address": "1501 Cherry St",
             "zip": "19102",
             "website": "http://www.annacrusis.com/",
-            "grantAmount": "8958",
-            "orgBudget": "35797"
+            "grantAmount": 8958,
+            "orgBudget": 35797
           }
       },
 
@@ -363,8 +363,8 @@
             "address": "331 Emily St",
             "zip": "19148",
             "website": "http://www.annemariemulgrewdancersco.org/",
-            "grantAmount": "8120",
-            "orgBudget": "25000"
+            "grantAmount": 8120,
+            "orgBudget": 25000
           }
       },
 
@@ -378,8 +378,8 @@
             "address": "3680 Walnut Street",
             "zip": "19104",
             "website": "http://www.annenbergcenter.org",
-            "grantAmount": "10504",
-            "orgBudget": "1500000"
+            "grantAmount": 10504,
+            "orgBudget": 1500000
           }
       },
 
@@ -393,8 +393,8 @@
             "address": "4804 Chester Ave",
             "zip": "19143",
             "website": "http://www.appliedmechanics.us/",
-            "grantAmount": "3609",
-            "orgBudget": "25000"
+            "grantAmount": 3609,
+            "orgBudget": 25000
           }
       },
 
@@ -408,8 +408,8 @@
             "address": "40 N 2nd St",
             "zip": "19106",
             "website": "http://www.ardentheatre.org",
-            "grantAmount": "14377",
-            "orgBudget": "8912247"
+            "grantAmount": 14377,
+            "orgBudget": 8912247
           }
       },
 
@@ -423,8 +423,8 @@
             "address": "3909 Warren Street",
             "zip": "19104",
             "website": "http://www.arsnovaworkshop.org/",
-            "grantAmount": "9620",
-            "orgBudget": "234686"
+            "grantAmount": 9620,
+            "orgBudget": 234686
           }
       },
 
@@ -439,8 +439,8 @@
             "address": "915 Spring Garden Street #401",
             "zip": "19123",
             "website": "http://www.artsphere.org",
-            "grantAmount": "3390",
-            "orgBudget": "8636"
+            "grantAmount": 3390,
+            "orgBudget": 8636
           }
       },
 
@@ -454,8 +454,8 @@
             "address": "220 South 34th Street",
             "zip": "19104",
             "website": "http://www.arthurrossgallery.org/",
-            "grantAmount": "8342",
-            "orgBudget": "1500000"
+            "grantAmount": 8342,
+            "orgBudget": 1500000
           }
       },
 
@@ -469,8 +469,8 @@
             "address": "4261 N. 5th St, 2nd Floor",
             "zip": "19140",
             "website": "http://www.amla.org/",
-            "grantAmount": "12134",
-            "orgBudget": "236936"
+            "grantAmount": 12134,
+            "orgBudget": 236936
           }
       },
 
@@ -484,8 +484,8 @@
             "address": "1501 Cherry Street",
             "zip": "19102",
             "website": "http://www.art-reach.org/",
-            "grantAmount": "10995",
-            "orgBudget": "373837"
+            "grantAmount": 10995,
+            "orgBudget": 373837
           }
       },
 
@@ -499,8 +499,8 @@
             "address": "1023 Callowhill St",
             "zip": "19123",
             "website": "http://www.aaunited.org/",
-            "grantAmount": "9692",
-            "orgBudget": "196309"
+            "grantAmount": 9692,
+            "orgBudget": 196309
           }
       },
 
@@ -514,8 +514,8 @@
             "address": "1219 Vine St",
             "zip": "19107",
             "website": "http://www.asianartsinitiative.org",
-            "grantAmount": "11071",
-            "orgBudget": "1138929"
+            "grantAmount": 11071,
+            "orgBudget": 1138929
           }
       },
 
@@ -529,8 +529,8 @@
             "address": "1528 Walnut St #1000",
             "zip": "19102",
             "website": "http://www.associationforpublicart.org/",
-            "grantAmount": "11747",
-            "orgBudget": "2493259"
+            "grantAmount": 11747,
+            "orgBudget": 2493259
           }
       },
 
@@ -544,8 +544,8 @@
             "address": "230 S Broad St # 300",
             "zip": "19102",
             "website": "http://www.astralartists.org/",
-            "grantAmount": "13000",
-            "orgBudget": "936352"
+            "grantAmount": 13000,
+            "orgBudget": 936352
           }
       },
 
@@ -559,8 +559,8 @@
             "address": "219 S 6th St",
             "zip": "19106",
             "website": "http://www.philaathenaeum.org/",
-            "grantAmount": "8959",
-            "orgBudget": "1652869"
+            "grantAmount": 8959,
+            "orgBudget": 1652869
           }
       },
 
@@ -574,8 +574,8 @@
             "address": "1400 N American St # 412",
             "zip": "19122",
             "website": "https://www.facebook.com/BachFestPhila",
-            "grantAmount": "8689",
-            "orgBudget": "69311"
+            "grantAmount": 8689,
+            "orgBudget": 69311
           }
       },
 
@@ -589,23 +589,8 @@
             "address": "1520 Christian St",
             "zip": "19146",
             "website": "",
-            "grantAmount": "5925",
-            "orgBudget": "10314"
-          }
-      },
-
-      { "type": "Feature",
-        "geometry": {
-          "type": "Point", 
-          "coordinates": [-75.168769, 39.940146]
-          },
-          "properties": {
-            "name": "Bainbridge House, Inc.",
-            "address": "1520 Christian St",
-            "zip": "19146",
-            "website": "",
-            "grantAmount": "5925",
-            "orgBudget": "10314"
+            "grantAmount": 5925,
+            "orgBudget": 10314
           }
       },
 
@@ -619,8 +604,8 @@
             "address": "1802 S Broad St",
             "zip": "19145",
             "website": "http://www.balletfleming.org/",
-            "grantAmount": "8374",
-            "orgBudget": "50231"
+            "grantAmount": 8374,
+            "orgBudget": 50231
           }
       },
 
@@ -634,8 +619,8 @@
             "address": "265 S Broad St",
             "zip": "19107",
             "website": "http://www.balletx.org/",
-            "grantAmount": "12657",
-            "orgBudget": "744362"
+            "grantAmount": 12657,
+            "orgBudget": 744362
           }
       },
 
@@ -649,8 +634,8 @@
             "address": "2025 Benjamin Franklin Pkwy",
             "zip": "19130",
             "website": "http://www.barnesfoundation.org/",
-            "grantAmount": "11090",
-            "orgBudget": "32008116"
+            "grantAmount": 11090,
+            "orgBudget": 32008116
           }
       },
 
@@ -664,8 +649,8 @@
             "address": "1315 Walnut St #320",
             "zip": "19107",
             "website": "http://www.vulcanlyric.org/",
-            "grantAmount": "10772",
-            "orgBudget": "350000"
+            "grantAmount": 10772,
+            "orgBudget": 350000
           }
       },
 
@@ -679,8 +664,8 @@
             "address": "1218 Arch St",
             "zip": "19107",
             "website": "http://philadelphiacfa.org/",
-            "grantAmount": "10390",
-            "orgBudget": "720148"
+            "grantAmount": 10390,
+            "orgBudget": 720148
           }
       },
 
@@ -694,8 +679,8 @@
             "address": "141 N 3rd St",
             "zip": "19106",
             "website": "http://www.centerforartinwood.org/",
-            "grantAmount": "10212",
-            "orgBudget": "624347"
+            "grantAmount": 10212,
+            "orgBudget": 624347
           }
       },
 
@@ -709,8 +694,8 @@
             "address": "237 S 18th St # 3A",
             "zip": "19103",
             "website": "http://www.cfeva.org/",
-            "grantAmount": "11000",
-            "orgBudget": "415067"
+            "grantAmount": 11000,
+            "orgBudget": 415067
           }
       },
 
@@ -724,8 +709,8 @@
             "address": "1520 Locust St #500",
             "zip": "19102",
             "website": "http://www.chamberorchestra.org/",
-            "grantAmount": "14408",
-            "orgBudget": "1742762"
+            "grantAmount": 14408,
+            "orgBudget": 1742762
           }
       },
 
@@ -739,8 +724,8 @@
             "address": "301-305 N 9th Street",
             "zip": "19107",
             "website": "",
-            "grantAmount": "6308",
-            "orgBudget": "29373"
+            "grantAmount": 6308,
+            "orgBudget": 29373
           }
       },
 
@@ -754,8 +739,8 @@
             "address": "1616 Walnut St # 711",
             "zip": "19103",
             "website": "http://www.choralarts.com/",
-            "grantAmount": "7447",
-            "orgBudget": "102047"
+            "grantAmount": 7447,
+            "orgBudget": 102047
           }
       },
 
@@ -769,8 +754,8 @@
             "address": "20 North American St.",
             "zip": "19106",
             "website": "http://www.christchurchphila.org/Historic-Christ-Church/Preservation-Trust/62/",
-            "grantAmount": "14041",
-            "orgBudget": "1734196"
+            "grantAmount": 14041,
+            "orgBudget": 1734196
           }
       },
 
@@ -784,8 +769,8 @@
             "address": "704 Catharine St",
             "zip": "19147",
             "website": "http://www.davinciartalliance.org/",
-            "grantAmount": "7313",
-            "orgBudget": "25000"
+            "grantAmount": 7313,
+            "orgBudget": 25000
           }
       },
 
@@ -799,8 +784,8 @@
             "address": "2000 Hamilton St",
             "zip": "19130",
             "website": "https://danceaffiliates.org/",
-            "grantAmount": "9981",
-            "orgBudget": "1038886"
+            "grantAmount": 9981,
+            "orgBudget": 1038886
           }
       },
 
@@ -814,8 +799,8 @@
             "address": "3611 Lancaster Avenue",
             "zip": "19104",
             "website": "http://www.gbyedance.org/",
-            "grantAmount": "11527",
-            "orgBudget": "276973"
+            "grantAmount": 11527,
+            "orgBudget": 276973
           }
       },
 
@@ -830,7 +815,7 @@
             "zip": "19143",
             "website": "http://www.dancingclassroomsphilly.org/",
             "grantAmount": "9806",
-            "orgBudget": "212694"
+            "orgBudget": 212694
           }
       },
 
@@ -844,8 +829,8 @@
             "address": "135 N 22nd Street",
             "zip": "19103",
             "website": "http://dolcesuono.com/",
-            "grantAmount": "9255",
-            "orgBudget": "84588"
+            "grantAmount": 9255,
+            "orgBudget": 84588
           }
       },
 
@@ -859,8 +844,8 @@
             "address": "2027 Fairmount Ave",
             "zip": "19130",
             "website": "http://www.easternstate.org/",
-            "grantAmount": "9293",
-            "orgBudget": "3085902"
+            "grantAmount": 9293,
+            "orgBudget": 3085902
           }
       },
 
@@ -874,8 +859,8 @@
             "address": "200 W Tulpehocken St",
             "zip": "19144",
             "website": "http://www.ebenezermaxwellmansion.org/",
-            "grantAmount": "5888",
-            "orgBudget": "155584"
+            "grantAmount": 5888,
+            "orgBudget": 155584
           }
       },
 
@@ -889,8 +874,8 @@
             "address": "1219 Vine St",
             "zip": "19107",
             "website": "http://www.egopo.org/",
-            "grantAmount": "9885",
-            "orgBudget": "144627"
+            "grantAmount": 9885,
+            "orgBudget": 144627
           }
       },
 
@@ -904,8 +889,8 @@
             "address": "1321 S Juniper St",
             "zip": "19147",
             "website": "http://www.eleonedance.org/",
-            "grantAmount": "8000",
-            "orgBudget": "25000"
+            "grantAmount": 8000,
+            "orgBudget": 25000
           }
       },
 
@@ -919,8 +904,8 @@
             "address": "100 S Broad St # 1318",
             "zip": "19110",
             "website": "http://www.enchantmenttheatre.org/",
-            "grantAmount": "10089",
-            "orgBudget": "722494"
+            "grantAmount": 10089,
+            "orgBudget": 722494
           }
       },
 
@@ -934,8 +919,8 @@
             "address": "3132 Windish St",
             "zip": "19152",
             "website": "",
-            "grantAmount": "2018",
-            "orgBudget": "25000"
+            "grantAmount": 2018,
+            "orgBudget": 25000
           }
       },
 
@@ -949,8 +934,8 @@
             "address": "1518 Walnut Street",
             "zip": "19102",
             "website": "http://www.phillypops.com/",
-            "grantAmount": "7883",
-            "orgBudget": "3586227"
+            "grantAmount": 7883,
+            "orgBudget": 3586227
           }
       },
 
@@ -964,8 +949,8 @@
             "address": "6401 Germantown Ave",
             "zip": "19144",
             "website": "http://www.cliveden.org/",
-            "grantAmount": "15500",
-            "orgBudget": "1500000"
+            "grantAmount": 15500,
+            "orgBudget": 1500000
           }
       },
 
@@ -979,8 +964,8 @@
             "address": "35 W. Chelten Ave",
             "zip": "19144",
             "website": "http://cychoirs.org/",
-            "grantAmount": "10027",
-            "orgBudget": "1226156"
+            "grantAmount": 10027,
+            "orgBudget": 1226156
           }
       },
 
@@ -994,8 +979,8 @@
             "address": "2129 W. Ritner Street",
             "zip": "19145",
             "website": "http://www.concertoperetta.com/",
-            "grantAmount": "2760",
-            "orgBudget": "25488"
+            "grantAmount": 2760,
+            "orgBudget": 25488
           }
       },
 
@@ -1009,8 +994,8 @@
             "address": "6309 Germantown Avenue",
             "zip": "19144",
             "website": "http://www.concordschoolhouse.org/",
-            "grantAmount": "4000",
-            "orgBudget": "25000"
+            "grantAmount": 4000,
+            "orgBudget": 25000
           }
       },
 
@@ -1024,8 +1009,8 @@
             "address": "264 South 23rd Street",
             "zip": "19103",
             "website": "http://www.ccaha.org/",
-            "grantAmount": "12171",
-            "orgBudget": "2899990"
+            "grantAmount": 12171,
+            "orgBudget": 2899990
           }
       },
 
@@ -1039,8 +1024,8 @@
             "address": "4427 Main Street",
             "zip": "19127",
             "website": "http://www.cosacosa.org/",
-            "grantAmount": "12158",
-            "orgBudget": "185625"
+            "grantAmount": 12158,
+            "orgBudget": 185625
           }
       },
 
@@ -1054,8 +1039,8 @@
             "address": "801 S 48th St",
             "zip": "19142",
             "website": "http://crossroadsconcerts.org/",
-            "grantAmount": "9000",
-            "orgBudget": "120135"
+            "grantAmount": 9000,
+            "orgBudget": 120135
           }
       },
 
@@ -1069,8 +1054,8 @@
             "address": "1315 Walnut Street, Suite 320",
             "zip": "19107",
             "website": "http://www.cultureworksphila.org/",
-            "grantAmount": "7925",
-            "orgBudget": "610631"
+            "grantAmount": 7925,
+            "orgBudget": 610631
           }
       },
 
@@ -1084,8 +1069,8 @@
             "address": "4740 Baltimore Ave",
             "zip": "19143",
             "website": "http://www.curiotheatre.org/",
-            "grantAmount": "8704",
-            "orgBudget": "25000"
+            "grantAmount": 8704,
+            "orgBudget": 25000
           }
       },
 
@@ -1099,8 +1084,8 @@
             "address": "1214 Arch St",
             "zip": "19107",
             "website": "http://www.fabricworkshopandmuseum.org/",
-            "grantAmount": "8342",
-            "orgBudget": "1731649"
+            "grantAmount": 8342,
+            "orgBudget": 1731649
           }
       },
 
@@ -1114,8 +1099,8 @@
             "address": "6245 Wissahickon Avenue",
             "zip": "19144",
             "website": "http://www.fairmountparktrust.org/",
-            "grantAmount": "10000",
-            "orgBudget": "605366"
+            "grantAmount": 10000,
+            "orgBudget": 605366
           }
       },
 
@@ -1129,8 +1114,8 @@
             "address": "1714 North Mascher Street",
             "zip": "19122",
             "website": "http://www.thefidget.org/",
-            "grantAmount": "$2,867",
-            "orgBudget": "30186"
+            "grantAmount": 2867,
+            "orgBudget": 30186
           }
       },
 
@@ -1144,8 +1129,8 @@
             "address": "443 W Girard Ave #2C",
             "zip": "19123",
             "website": "http://www.firstpersonarts.org",
-            "grantAmount": "14108",
-            "orgBudget": "335466"
+            "grantAmount": 14108,
+            "orgBudget": 335466
           }
       },
 
@@ -1159,8 +1144,8 @@
             "address": "1427 Spruce Street #1F",
             "zip": "19102",
             "website": "http://www.flashpointtheatre.org/",
-            "grantAmount": "7110",
-            "orgBudget": "25000"
+            "grantAmount": 7110,
+            "orgBudget": 25000
           }
       },
 
@@ -1174,8 +1159,8 @@
             "address": "82 For Mifflin Rd",
             "zip": "19153",
             "website": "http://www.fortmifflin.us",
-            "grantAmount": "10561",
-            "orgBudget": "209894"
+            "grantAmount": 10561,
+            "orgBudget": 209894
           }
       },
 
@@ -1189,8 +1174,8 @@
             "address": "2101 S. COLLEGE AVE",
             "zip": "19121",
             "website": "http://www.girardcollege.edu/page.cfm?p=834",
-            "grantAmount": "7308",
-            "orgBudget": "831248"
+            "grantAmount": 7308,
+            "orgBudget": 831248
           }
       },
 
@@ -1204,8 +1189,8 @@
             "address": "222 N 20th St",
             "zip": "19103",
             "website": "https://www.fi.edu/",
-            "grantAmount": "14000",
-            "orgBudget": "29033090"
+            "grantAmount": 14000,
+            "orgBudget": 29033090
           }
       },
 
@@ -1219,8 +1204,8 @@
             "address": "3822 Ridge Ave",
             "zip": "19132",
             "website": "http://www.thelaurelhillcemetery.org",
-            "grantAmount": "9744",
-            "orgBudget": "471819"
+            "grantAmount": 9744,
+            "orgBudget": 471819
           }
       },
 
@@ -1234,8 +1219,8 @@
             "address": "140 N Columbus Blvd",
             "zip": "19106",
             "website": "http://wwww.fringearts.com/",
-            "grantAmount": "12984",
-            "orgBudget": "3533911"
+            "grantAmount": 12984,
+            "orgBudget": 3533911
           }
       }
 
