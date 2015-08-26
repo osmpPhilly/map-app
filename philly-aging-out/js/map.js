@@ -27,9 +27,10 @@ var map = L.map('map').setView([39.988, -75.146], 12);
                     fillOpacity: 0.7,
                 };
             },
-            //onEachFeature: function (featureData, layer) {
-                //layer.bindPopup("Median age =" + featureData.properties.PERCENT65 + "");
-            //}
+            onEachFeature: function (featureData, layer) {
+            layer.bindPopup("<b>Census Tract" + " " + featureData.properties.NAME10 + "</b></br>" + "<b>Total Population:</b>" + " " + featureData.properties.POPULATION + "</br>" 
+            + "<b>Median Age</b>:" + " " + featureData.properties.MEDIANAGE + "</br>" + "<b>% Over 65</b>:" + " " + featureData.properties.PERCENT65 + "</br>");
+            }
         };
         var dataLayer = L.geoJson(data, layerOptions);
        dataLayer.addTo(map);
@@ -46,13 +47,13 @@ var map = L.map('map').setView([39.988, -75.146], 12);
 
                         markerOptions = {
                             color: '#54FF1E',
-                            fillOpacity: 1,
+                            fillOpacity: 0.8,
                             };
                         
                         return L.circleMarker(latlng, markerOptions);
                         },
                     onEachFeature: function (featureData, layer) {
-                    layer.bindPopup ("<b>Market Name:</b>" + " " + featureData.properties.FARMER_S_MARKET_NAME + " "
+                    layer.bindPopup ('<b>Market Name:</b>' + " " + featureData.properties.FARMER_S_MARKET_NAME + "</br> " + "<b>Neighborhood</b>:" + " " + featureData.properties.NEIGHBORHOOD
                         )
                     }
                     };
@@ -71,12 +72,12 @@ var map = L.map('map').setView([39.988, -75.146], 12);
 
                         markerOptions = {
                             color: '#FFBA1E',
-                            fillOpacity: 0.9,
+                            fillOpacity: 0.8,
                             };
                         return L.circleMarker(latlng, markerOptions);
                         },
                     onEachFeature: function(featureData, layer) {
-                    layer.bindPopup ("<b>Site Name:</b>"+ " " + featureData.properties.SITE + " ")
+                    layer.bindPopup ("<b>Site Name:</b>"+ " " + featureData.properties.SITE + "</br>" + "<b>Address</b>:" + " " + featureData.properties.ADDRESS + "")
                     }
                 };
             var OlderLayer = L.geoJson(jsonData, layerOptions);
@@ -94,10 +95,13 @@ var map = L.map('map').setView([39.988, -75.146], 12);
                 pointToLayer: function(featureData, latlng) {            
 
                     markerOptions = {
-                        color: '#1A0126',
-                        fillOpacity: 0.9,
+                        color: '#1A0125',
+                        fillOpacity: 0.8,
                         };
                     return L.circleMarker(latlng, markerOptions);
+                    },
+                    onEachFeature: function(featureData, layer) {
+                    layer.bindPopup ("<b>Site Name:</b>"+ " " + featureData.properties.NAME + "</br>" + "<b>Address</b>:" + " " + featureData.properties.FULL_ADDRESS + "")
                     }
                 };
             var centerLayer = L.geoJson(jsonData, layerOptions);
@@ -111,13 +115,13 @@ var map = L.map('map').setView([39.988, -75.146], 12);
         var dataHospitals = function(jsonData) {
             console.log(jsonData);
             var layerOptions = {
-                pointToLayer: function(featureData, xy) {            
+                pointToLayer: function(featureData, latlng) {            
 
                     markerOptions = {
                         color: '#FFFFFF',
-                        fillOpacity: 0.9,
+                        fillOpacity: 0.8,
                         };
-                    return L.circleMarker(xy, markerOptions);
+                    return L.circleMarker(latlng, markerOptions);
                     }
                 };
             var centerLayer = L.geoJson(jsonData, layerOptions);
